@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <main class="nft-card-container">
+      <article class="nft-card">
+        <div class="nft-image-container">
+          <img
+            src="./images/image-equilibrium.jpg"
+            alt="Equilibrium #3429 NFT: A glowing blue glass cube balanced on one corner"
+            class="nft-image"
+          />
+        </div>
+        <header>
+          <h1 class="nft-title">
+            <a href="#">Equilibrium #3429</a>
+          </h1>
+          <p class="nft-description">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+        </header>
+        <ul class="nft-stats" aria-label="NFT details">
+          <li class="nft-price">
+            <img src="./images/icon-ethereum.svg" alt="" aria-hidden="true" class="nft-icon" />
+            <span class="sr-only">Price:</span> <strong>0.041 ETH</strong>
+          </li>
+          <li class="nft-countdown">
+            <img src="./images/icon-clock.svg" alt="" aria-hidden="true" class="nft-clock-icon" />
+            <span class="sr-only">Time remaining:</span> <span>3 days left</span>
+          </li>
+        </ul>
+
+        <hr class="nft-divider" />
+
+        <footer class="nft-author">
+          <img src="./images/image-avatar.png" alt="Avatar of Jules Wyvern" class="avatar" />
+          <p>
+            Creation of <strong><a href="#">Jules Wyvern</a></strong>
+          </p>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>
